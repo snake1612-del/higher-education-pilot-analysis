@@ -98,7 +98,7 @@ python src/run_analysis.py --mkp /path/to/MKP.xlsx --mev /path/to/MEV.xlsx --dsn
 python src/build_figures.py
 ```
 
-The runner prepares Excel inputs, imports the documented registry, executes SQL, asserts panel sizes, compares results with independent Python calculations and exports chart inputs. It stops on errors. Use `.pgpass` for credentials; `--psql` accepts an explicit client executable path.
+The runner prepares Excel inputs, imports the documented registry, executes SQL, asserts panel sizes, compares results with independent Python calculations and exports chart inputs. Repeated runs require a fresh database and an empty or new `--output` directory; existing artifacts are not overwritten. It stops on errors. Use `.pgpass` for credentials; `--psql` accepts an explicit client executable path.
 
 [Execution and checks](docs/reproduction.md) · [Input specifications](data/README.md) · [Audit response](docs/audit_response.md), currently in Russian. Numeric exports remain local under the Git-ignored `outputs/` directory. Access to source datasets is managed by the hackathon organisers.
 

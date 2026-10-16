@@ -1,14 +1,14 @@
 {
   "status": "pass",
   "independent_rows": 439,
-  "numeric_checks": 2214,
+  "numeric_checks": 2662,
   "panel_assertions": "16 score / 8 BVI / 4 universities",
   "input_sha256": {
     "mkp": "e52c2ce1f8c2a18d37a47ab8accd6c743fbe8094ca4840782bb5177852d79a40",
     "mev": "63c08bad8ea0069fa32623ba0e2601e68cde5c032344e9c7d09ce2ced6130104"
   },
   "engine": "18.6",
-  "synthetic_unit_tests": 3,
+  "synthetic_unit_tests": 12,
   "sql_regressions": [
     "control_weight_composition",
     "missing_background",
@@ -19,5 +19,28 @@
     "axis_range",
     "panel_metadata"
   ],
-  "figures_visually_checked": 6
+  "figures_visually_checked": 6,
+  "run_id": "7496a77e1fa349bbad9746153e9ab51d",
+  "started_at": "2026-10-16T12:35:38.227143+00:00",
+  "finished_at": "2026-10-16T12:35:40.746338+00:00",
+  "sql_rows_checked": 495,
+  "checks_by_family": {
+    "comparisons": {
+      "rows": 287,
+      "numeric_checks": 1806
+    },
+    "double_fixed": {
+      "rows": 98,
+      "numeric_checks": 196
+    },
+    "bvi_thresholds": {
+      "rows": 110,
+      "numeric_checks": 660
+    }
+  },
+  "main_bvi_mutation_cases": 112,
+  "rerun_output_preservation": "pass",
+  "occupied_database_preflight": "pass",
+  "unchanged_result_tables": 7,
+  "figure_rebuild_required": false
 }
