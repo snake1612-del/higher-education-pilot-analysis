@@ -18,6 +18,8 @@ The study examines state-funded admissions in 2021–2025: mean entrance scores,
 | University Performance Monitoring — MEV | University size and subject profile; pre-pilot description and comparability checks. Reporting years 2021–2024 |
 | University documents | Historical verification of links between pilot programmes and MKP subject groups |
 
+The source MKP panel includes state universities’ main institutions with combined state-funded and fee-paying admission data in every year of 2021–2025. Complete subject-group panels are then selected separately for each metric.
+
 The university-level analysis covers the six initial participants: Immanuel Kant Baltic Federal University, Moscow Aviation Institute, MISIS, Moscow Pedagogical State University, Tomsk State University and Saint Petersburg Mining University.
 
 The detailed 2023 cohort comprises **16 university–group pairs across four universities**: MAI, MISIS, MPGU and TSU. These are groups linked to the pilot, not 16 individual pilot programmes. Groups may also contain other programmes. BVI is analysed on a separate complete subpanel of eight pairs.
@@ -54,7 +56,7 @@ An increase in absolute BVI counts therefore does not establish a common advanta
 
 1. **Preparation and quality checks.** Parse text-based numbers, preserve missing values and check university–group–year keys and valid ranges.
 2. **Fixed panels.** Hold observation sets constant across all five years for each metric separately. Missing values are not treated as zero.
-3. **Subject benchmark.** Use the same subject groups at other universities, excluding all six initial participants. Align benchmark composition with the focal university’s baseline structure.
+3. **Subject benchmark.** Use the same subject groups at other state universities’ main institutions in the source five-year MKP panel, excluding all six initial participants. Align benchmark composition with the focal university’s baseline structure.
 4. **Comparative changes.** Use fixed enrolment weights for scores, enrolment growth rates and changes in BVI shares. Also compare linked and other observed groups within universities and calculate linked groups’ enrolment shares.
 5. **Sensitivity checks.** Change the baseline year and examine small initial BVI counts.
 
@@ -63,6 +65,8 @@ Key queries: [fixed panels](sql/04_fixed_panels.sql), [main comparisons](sql/05_
 **Tools:** PostgreSQL, Python and Matplotlib. SQL uses CTEs, `CROSS JOIN LATERAL`, `FILTER`, the `LAG` window function and materialized views.
 
 Early comparisons were performed in PostgreSQL; the final research checks were calculated in Python. The SQL implementation of the main final calculations was reconstructed later and checked locally against verified results. An [independent Python implementation](src/independent_check.py) now reproduces the main calculations. Nearest-neighbour matching using MEV is outside the public execution pipeline; robustness to that matching procedure is not claimed here.
+
+The numerical v5 results were reproduced in a [separate replication using the source Excel files](docs/independent_replication.md), documented in Russian: 4,191 checks in the project pipeline and 214 additional comparisons calculated directly from Excel without importing the project’s calculation functions. The report records a different MKP file hash; the original author-run validation report is retained.
 
 ## Limits of interpretation
 
