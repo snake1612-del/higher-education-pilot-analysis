@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "independent_rows": 439,
+  "numeric_checks": 2214,
+  "panel_assertions": "16 score / 8 BVI / 4 universities",
+  "input_sha256": {
+    "mkp": "e52c2ce1f8c2a18d37a47ab8accd6c743fbe8094ca4840782bb5177852d79a40",
+    "mev": "63c08bad8ea0069fa32623ba0e2601e68cde5c032344e9c7d09ce2ced6130104"
+  },
+  "engine": "18.6",
+  "synthetic_unit_tests": 3,
+  "sql_regressions": [
+    "control_weight_composition",
+    "missing_background",
+    "known_zero_intake",
+    "final_panel_guard"
+  ],
+  "chart_negative_tests": [
+    "axis_range",
+    "panel_metadata"
+  ],
+  "figures_visually_checked": 6
+}

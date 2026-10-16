@@ -7,6 +7,7 @@ from pathlib import Path
 import argparse
 import csv
 import math
+import json
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -60,20 +61,21 @@ def save(fig, output, name):
                 metadata={'Title': name.removesuffix('.png')})
     plt.close(fig)
 
-def score_figure(rows, lang, output):
+def score_figure(rows, lang, output, meta):
     fig, ax = plt.subplots(figsize=(10.8, 4.8), facecolor=PAPER)
     fig.subplots_adjust(left=.16, right=.96, bottom=.17, top=.77)
     ru = lang == 'ru'
     heading(fig,
             'Общего повышения баллов относительно фона не выявлено' if ru else
             'No common increase in entrance scores relative to the benchmark',
-            'Шесть вузов целиком. Разность изменений за 2022–2025, баллы' if ru else
-            'Six whole universities. Difference in changes, 2022–2025, score points')
+            'Шесть вузов: постоянная панель групп. Изменения за 2022–2025, баллы' if ru else
+            'Six universities: fixed group panel. Difference in changes, 2022–2025')
     values = [rows[u]['score_gap'] for u in ORDER]
     style_axis(ax, lang, horizontal=True)
     ax.barh(ORDER, values, color=[TEAL if v >= 0 else ORANGE for v in values], height=.58)
     ax.invert_yaxis()
     ax.set_yticks(range(len(ORDER)), ORDER if ru else [EN_NAMES[u] for u in ORDER])
+    bounds(values, -5.25, 1.65, 'score')
     ax.set_xlim(-5.25, 1.65)
     ax.axvline(0, color=MUTED, linewidth=1)
     ax.set_xlabel('Разность изменений, баллы' if ru else 'Difference in changes, score points',
@@ -83,15 +85,15 @@ def score_figure(rows, lang, output):
                 va='center', ha='left' if v >= 0 else 'right', color=NAVY, weight='bold', fontsize=12)
     save(fig, output, 'scores.png')
 
-def intake_figure(rows, lang, output):
+def intake_figure(rows, lang, output, meta):
     fig, ax = plt.subplots(figsize=(10.8, 4.9), facecolor=PAPER)
     fig.subplots_adjust(left=.09, right=.97, bottom=.15, top=.76)
     ru = lang == 'ru'
     heading(fig,
             'Бюджетное зачисление менялось неодинаково' if ru else
             'State-funded enrolment followed different trajectories',
-            'Когорта 2023: 16 связок четырёх вузов. Изменение за 2022–2025, %' if ru else
-            '2023 cohort: 16 university–group pairs across four universities. Change in 2022–2025, %')
+            f"Когорта 2023: {meta['intake']['groups']} связок, {meta['intake']['universities']} вуза. Изменение за 2022–2025, %" if ru else
+            f"2023 cohort: {meta['intake']['groups']} university–group pairs, {meta['intake']['universities']} universities. Change in 2022–2025, %")
     style_axis(ax, lang)
     x = list(range(4)); width = .30
     values = [rows[u]['growth_pct'] for u in CORE]
@@ -102,6 +104,7 @@ def intake_figure(rows, lang, output):
                    label='Предметный фон' if ru else 'Subject benchmark')
     ax.axhline(0, color=MUTED, linewidth=1)
     ax.set_xticks(x, CORE if ru else [EN_NAMES[u] for u in CORE])
+    bounds(values+refs, -12.5, 19.5, 'intake')
     ax.set_ylim(-12.5, 19.5)
     ax.set_ylabel('%', rotation=0, color=MUTED, labelpad=14)
     ax.legend(frameon=False, loc='upper left', ncols=2, fontsize=10.5, labelcolor=NAVY)
@@ -113,15 +116,15 @@ def intake_figure(rows, lang, output):
                     color=NAVY, fontsize=11, weight='bold')
     save(fig, output, 'intake.png')
 
-def bvi_figure(rows, lang, output):
+def bvi_figure(rows, lang, output, meta):
     fig, axes = plt.subplots(1, 2, figsize=(12.4, 5.0), facecolor=PAPER)
     fig.subplots_adjust(left=.07, right=.97, bottom=.17, top=.69, wspace=.34)
     ru = lang == 'ru'
     heading(fig,
             'Число БВИ выросло, а относительная динамика доли различалась' if ru else
             'BVI counts increased, while relative share changes were mixed',
-            'Отдельная полная подпанель: 8 связок четырёх вузов, 2022–2025' if ru else
-            'Separate complete subpanel: eight university–group pairs across four universities, 2022–2025')
+            f"Отдельная полная подпанель: {meta['bvi']['groups']} связок, {meta['bvi']['universities']} вуза, 2022–2025" if ru else
+            f"Separate complete subpanel: {meta['bvi']['groups']} pairs, {meta['bvi']['universities']} universities, 2022–2025")
     ax, gap = axes
     style_axis(ax, lang)
     xs = list(range(4)); width=.32
@@ -132,6 +135,7 @@ def bvi_figure(rows, lang, output):
             ax.text(bar.get_x()+bar.get_width()/2,value+.8,str(int(value)),
                     ha='center',va='bottom',fontsize=11,weight='bold',color=NAVY)
     ax.set_xticks(xs,CORE if ru else [EN_NAMES[u] for u in CORE])
+    bounds(a+b, 0, 46, 'BVI count')
     ax.set_ylim(0,46)
     ax.set_title('БВИ, человек' if ru else 'Entrants admitted without exams',
                  loc='left',fontsize=12,color=NAVY,pad=18)
@@ -141,6 +145,7 @@ def bvi_figure(rows, lang, output):
     gap.barh(range(4),values,color=[TEAL if v>=0 else ORANGE for v in values],height=.55)
     gap.set_yticks(range(4),CORE if ru else [EN_NAMES[u] for u in CORE])
     gap.invert_yaxis();gap.axvline(0,color=MUTED,linewidth=1)
+    bounds(values, -5.3, 3.5, 'BVI share')
     gap.set_xlim(-5.3,3.5)
     gap.set_title('Изменение доли относительно фона, п.п.' if ru else
                   'Share change relative to benchmark, pp',loc='left',fontsize=12,color=NAVY,pad=18)
@@ -149,6 +154,10 @@ def bvi_figure(rows, lang, output):
                  ha='left' if v>=0 else 'right',va='center',color=NAVY,fontsize=11,weight='bold')
     save(fig, output, 'bvi.png')
 
+def bounds(values, lower, upper, name):
+    if any(v < lower or v > upper for v in values):
+        raise ValueError(f'{name}: data outside chart range; revise axes before publication')
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data-dir',type=Path,default=Path('outputs/chart_data'))
@@ -156,17 +165,24 @@ def main():
     args=parser.parse_args()
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,
                          'axes.labelsize':11,'axes.unicode_minus':True})
-    scores=read_rows(args.data_dir/'score_changes.csv',['score_gap'],ORDER)
-    intake=read_rows(args.data_dir/'intake_growth.csv',['growth_pct','reference_growth_pct'],CORE)
-    bvi=read_rows(args.data_dir/'bvi_changes.csv',['bvi0','bvi1','n0','n1','share_gap'],CORE)
+    meta=json.loads((args.data_dir/'panel_metadata.json').read_text())
+    for key,expected in [('score',6),('intake',4),('bvi',4)]:
+        if meta[key]['universities'] != expected or meta[key]['groups'] < expected:
+            raise ValueError('Unexpected panel metadata: '+key)
+    scores=read_rows(args.data_dir/'score_changes.csv',['score_gap','groups_used'],ORDER)
+    intake=read_rows(args.data_dir/'intake_growth.csv',['growth_pct','reference_growth_pct','groups_used'],CORE)
+    bvi=read_rows(args.data_dir/'bvi_changes.csv',['bvi0','bvi1','n0','n1','share_gap','groups_used'],CORE)
+    for key,rows in [('score',scores),('intake',intake),('bvi',bvi)]:
+        if any(r['groups_used']<=0 or not r['groups_used'].is_integer() for r in rows.values()) or sum(r['groups_used'] for r in rows.values()) != meta[key]['groups']:
+            raise ValueError('Panel count does not match SQL export: '+key)
     for r in bvi.values():
         if not (r['n0']>0 and r['n1']>0 and 0<=r['bvi0']<=r['n0'] and 0<=r['bvi1']<=r['n1']):
             raise ValueError('Invalid BVI denominator or count')
     for lang in ['ru','en']:
         output=args.output_dir/lang
-        score_figure(scores,lang,output)
-        intake_figure(intake,lang,output)
-        bvi_figure(bvi,lang,output)
+        score_figure(scores,lang,output,meta)
+        intake_figure(intake,lang,output,meta)
+        bvi_figure(bvi,lang,output,meta)
     print('Built three figures in Russian and English.')
 
 if __name__=='__main__':

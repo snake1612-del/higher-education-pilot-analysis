@@ -28,7 +28,9 @@ The detailed 2023 cohort comprises **16 university–group pairs across four uni
 
 ![Changes in mean entrance scores relative to the subject benchmark across six universities in 2022–2025](assets/en/scores.png)
 
-The chart shows the university’s score change minus the change in its subject benchmark. Group membership and 2022 enrolment weights are held fixed.
+The chart shows the university’s score change minus the change in its subject benchmark. Observation membership and **between-group** 2022 enrolment weights are held fixed. Within each group, control universities are weighted by current enrolment. Enrolment counts approximate the unknown denominator of the official mean score.
+
+Fixing control-university weights as well changes BFU’s sign from −0.06 to +0.26 score points; the overall six-university conclusion remains. [Sensitivity results, panel sizes and coverage](docs/results.md) are documented in Russian.
 
 MAI has a positive contrast of **+0.93 score points**, BFU is close to zero and the other four universities have negative contrasts. MAI’s result changes sign with a 2021 baseline. A negative contrast describes relative change and does not necessarily mean that the university’s own score fell.
 
@@ -56,11 +58,11 @@ An increase in absolute BVI counts therefore does not establish a common advanta
 4. **Comparative changes.** Use fixed enrolment weights for scores, enrolment growth rates and changes in BVI shares. Also compare linked and other observed groups within universities and calculate linked groups’ enrolment shares.
 5. **Sensitivity checks.** Change the baseline year and examine small initial BVI counts.
 
-Key queries: [fixed panels](sql/04_fixed_panels.sql), [main comparisons](sql/05_main_comparisons.sql), [BVI analysis](sql/07_bvi.sql).
+Key queries: [fixed panels](sql/04_fixed_panels.sql), [main comparisons](sql/05_main_comparisons.sql), [BVI analysis](sql/07_bvi.sql), [audit sensitivity checks](sql/11_audit_sensitivity.sql).
 
 **Tools:** PostgreSQL, Python and Matplotlib. SQL uses CTEs, `CROSS JOIN LATERAL`, `FILTER`, the `LAG` window function and materialized views.
 
-Early comparisons were performed in PostgreSQL; the final research checks were calculated in Python. The SQL implementation of the main final calculations was reconstructed later and checked locally against verified results. The full matching procedure has not yet been ported to this SQL section.
+Early comparisons were performed in PostgreSQL; the final research checks were calculated in Python. The SQL implementation of the main final calculations was reconstructed later and checked locally against verified results. An [independent Python implementation](src/independent_check.py) now reproduces the main calculations. Nearest-neighbour matching using MEV is outside the public execution pipeline; robustness to that matching procedure is not claimed here.
 
 ## Limits of interpretation
 
@@ -78,22 +80,27 @@ sql/                    Preparation, checks and research queries
 src/build_figures.py    Russian and English figure generation
 assets/ru/              Figures for the Russian README
 assets/en/              Figures for the English README
+metadata/               Documented registry, identities and MEV schema
+docs/                   Sensitivity findings and reproduction guide
+tests/                  Synthetic methodological counterexamples
 data/README.md          Local input specifications
 requirements.txt        Visualization dependencies
 ```
 
-Source datasets, the registry needed for reproduction and derived numerical tables are not distributed. The repository contains code and final figures. Full execution requires authorized access to the local data.
+Source datasets and row-level derived tables are not distributed. The [documented scope registry](metadata/scope_registry.json) and [aggregate sensitivity results](docs/results.md) are public. The repository contains code and final figures. Full execution requires authorized access to the local data.
 
-1. Prepare inputs according to the [data specifications](data/README.md), currently in Russian.
-2. Follow the [SQL execution guide](sql/README.md), also in Russian. Tested with PostgreSQL 18.
-3. To rebuild figures, create `outputs/chart_data`, run `sql/10_export_chart_data.psql` through psql from the repository root, then:
+Authorized access to the original hackathon Excel files, Python 3.12 and PostgreSQL 18 with psql are required. Use a **fresh separate database**; the runner stops if project tables already exist and never deletes them automatically.
 
 ```bash
 python -m pip install -r requirements.txt
+createdb hse_pilot_reproduction
+python src/run_analysis.py --mkp /path/to/MKP.xlsx --mev /path/to/MEV.xlsx --dsn 'dbname=hse_pilot_reproduction user=postgres'
 python src/build_figures.py
 ```
 
-Figures use local SQL exports, which are excluded from Git. The visualization script was tested with Python 3.12.
+The runner prepares Excel inputs, imports the documented registry, executes SQL, asserts panel sizes, compares results with independent Python calculations and exports chart inputs. It stops on errors. Use `.pgpass` for credentials; `--psql` accepts an explicit client executable path.
+
+[Execution and checks](docs/reproduction.md) · [Input specifications](data/README.md) · [Audit response](docs/audit_response.md), currently in Russian. Numeric exports remain local under the Git-ignored `outputs/` directory. Access to source datasets is managed by the hackathon organisers.
 
 ## Sources and acknowledgements
 

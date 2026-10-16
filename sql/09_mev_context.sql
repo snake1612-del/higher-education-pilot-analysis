@@ -25,7 +25,12 @@ SELECT research.normalized_text(id) AS id,
        research.parse_number(engineering_students) AS engineering_students,
        research.parse_number(full_time_share) AS full_time_share,
        research.parse_number(bachelor_share) AS bachelor_share,
-       research.parse_number(master_share) AS master_share
+       research.parse_number(master_share) AS master_share,
+       research.parse_number(humanities_students)+research.parse_number(medical_students)
+        +research.parse_number(engineering_students)+research.parse_number(arts_students)
+        +research.parse_number(natural_sciences_students)+research.parse_number(social_sciences_students)
+        +research.parse_number(education_students)+research.parse_number(agriculture_students)
+           AS equivalent_students
 FROM research_raw.mev_selected;
 
 -- Отличаем год мониторинга от отчётного года и головной вуз от филиала.
@@ -37,8 +42,10 @@ GROUP BY monitor_year, report_year ORDER BY monitor_year;
 -- Только допилотные отчётные 2021–2022. Пропущенный ID виден как NULL.
 -- Доли bachelor/master/full_time уже представлены в процентах в selected CSV.
 -- Это описание фокальных вузов, не автоматический подбор аналогов.
+-- Численности областей знаний — приведённый контингент. Его доли считаются
+-- в сумме восьми областей, а не в общей физической численности студентов.
 SELECT p.short_name, m.report_year, m.total_students,
-       ROUND(100 * m.engineering_students / NULLIF(m.total_students, 0), 1)
+       ROUND(100 * m.engineering_students / NULLIF(m.equivalent_students, 0), 1)
            AS engineering_pct,
        m.full_time_share, m.bachelor_share, m.master_share
 FROM research.pilot_universities p

@@ -8,7 +8,8 @@ CROSS JOIN LATERAL (VALUES
     ('score', a.admitted > 0 AND a.ege IS NOT NULL),
     ('bvi', a.admitted > 0 AND a.bvi IS NOT NULL
             AND a.bvi BETWEEN 0 AND a.admitted),
-    ('coverage', a.admitted >= 0)
+    ('coverage', a.admitted >= 0),
+    ('intake', a.admitted >= 0)
 ) m(metric, valid)
 GROUP BY a.university, a.major_group, m.metric
 HAVING COUNT(*) = 5 AND BOOL_AND(COALESCE(m.valid, false))
@@ -19,6 +20,8 @@ CREATE UNIQUE INDEX IF NOT EXISTS stable_group_metric_key
 ANALYZE research.stable_group_metric;
 
 -- Постоянный набор вузов фона внутри каждой группы и метрики.
+-- Численности внутри групп текущие. Fixed ниже фиксирует только веса групп.
+-- Альтернативные базовые веса вузов внутри групп рассчитываются в 11.
 -- Первоначальная шестёрка полностью исключена из внешнего фона.
 CREATE MATERIALIZED VIEW IF NOT EXISTS research.subject_background AS
 SELECT s.major_group, s.metric, a.year,
@@ -28,7 +31,7 @@ SELECT s.major_group, s.metric, a.year,
        CASE WHEN s.metric = 'bvi' THEN SUM(a.bvi) END AS bvi
 FROM research.stable_group_metric s
 JOIN research.mkp_annual a USING (university, major_group)
-WHERE s.metric IN ('score', 'bvi')
+WHERE s.metric IN ('score', 'bvi', 'intake')
   AND NOT EXISTS (SELECT FROM research.pilot_universities p
                   WHERE p.university = s.university)
 GROUP BY s.major_group, s.metric, a.year
@@ -43,7 +46,7 @@ SELECT s.university, s.major_group, s.metric,
        'whole'::text AS scope, 'all'::text AS side
 FROM research.stable_group_metric s
 JOIN research.pilot_universities p USING (university)
-WHERE s.metric IN ('score', 'bvi')
+WHERE s.metric IN ('score', 'bvi', 'intake')
 UNION ALL
 SELECT s.university, s.major_group, s.metric, scopes.scope,
        CASE WHEN EXISTS (
@@ -54,7 +57,7 @@ SELECT s.university, s.major_group, s.metric, scopes.scope,
 FROM research.stable_group_metric s
 JOIN research.pilot_universities p USING (university)
 CROSS JOIN (VALUES ('cohort2023'), ('confirmed_eventual')) scopes(scope)
-WHERE s.metric IN ('score', 'bvi')
+WHERE s.metric IN ('score', 'bvi', 'intake')
   AND p.in_primary_cohort
   AND EXISTS (SELECT FROM research.scope_links l
               WHERE l.university = s.university AND l.scope = scopes.scope);
@@ -71,15 +74,15 @@ SELECT g.university, g.scope, g.side, g.metric, base.base_year, a.year,
        CASE WHEN g.metric = 'score' THEN
            SUM(b.admitted * a.ege) / SUM(b.admitted) END AS ege_fixed,
        CASE WHEN g.metric = 'bvi' THEN SUM(a.bvi) END AS bvi,
-       SUM(b.admitted * c.admitted / c0.admitted) AS reference_scaled_admitted,
+       SUM(b.admitted * c.admitted / NULLIF(c0.admitted, 0)) AS reference_scaled_admitted,
        CASE WHEN g.metric = 'score' THEN
-           SUM(b.admitted * c.score_numerator / c0.admitted)
-           / SUM(b.admitted * c.admitted / c0.admitted) END AS reference_ege_current,
+           SUM(b.admitted * c.score_numerator / NULLIF(c0.admitted, 0))
+           / SUM(b.admitted * c.admitted / NULLIF(c0.admitted, 0)) END AS reference_ege_current,
        CASE WHEN g.metric = 'score' THEN
            SUM(b.admitted * c.score_numerator / c.admitted)
            / SUM(b.admitted) END AS reference_ege_fixed,
        CASE WHEN g.metric = 'bvi' THEN
-           SUM(b.admitted * c.bvi / c0.admitted) END AS reference_scaled_bvi
+           SUM(b.admitted * c.bvi / NULLIF(c0.admitted, 0)) END AS reference_scaled_bvi
 FROM research.group_membership g
 CROSS JOIN (VALUES (2021), (2022)) base(base_year)
 JOIN research.mkp_annual a USING (university, major_group)
@@ -91,6 +94,7 @@ JOIN research.subject_background c
 JOIN research.subject_background c0
   ON c0.major_group = g.major_group AND c0.metric = g.metric
  AND c0.year = base.base_year
+WHERE c0.admitted > 0
 GROUP BY g.university, g.scope, g.side, g.metric, base.base_year, a.year
 WITH NO DATA;
 REFRESH MATERIALIZED VIEW research.comparison_annual;
@@ -102,11 +106,11 @@ CREATE OR REPLACE VIEW research.comparison_changes AS
 SELECT a.university, a.scope, a.side, a.metric, a.base_year, a.year AS end_year,
        a.groups_used, b.admitted AS n0, a.admitted AS n1,
        a.admitted - b.admitted AS delta_n,
-       100 * (a.admitted / b.admitted - 1) AS growth_pct,
-       100 * (a.reference_scaled_admitted / b.reference_scaled_admitted - 1)
+       100 * (a.admitted / NULLIF(b.admitted, 0) - 1) AS growth_pct,
+       100 * (a.reference_scaled_admitted / NULLIF(b.reference_scaled_admitted, 0) - 1)
            AS reference_growth_pct,
-       100 * (a.admitted / b.admitted
-              - a.reference_scaled_admitted / b.reference_scaled_admitted)
+       100 * (a.admitted / NULLIF(b.admitted, 0)
+              - a.reference_scaled_admitted / NULLIF(b.reference_scaled_admitted, 0))
            AS growth_gap_pp,
        a.ege_fixed - b.ege_fixed AS ege_fixed_change,
        a.reference_ege_fixed - b.reference_ege_fixed AS reference_ege_fixed_change,
@@ -115,8 +119,8 @@ SELECT a.university, a.scope, a.side, a.metric, a.base_year, a.year AS end_year,
        (a.ege_current - b.ege_current)
          - (a.reference_ege_current - b.reference_ege_current) AS ege_current_gap,
        b.bvi AS bvi0, a.bvi AS bvi1,
-       100 * b.bvi / b.admitted AS bvi_share0,
-       100 * a.bvi / a.admitted AS bvi_share1,
+       100 * b.bvi / NULLIF(b.admitted, 0) AS bvi_share0,
+       100 * a.bvi / NULLIF(a.admitted, 0) AS bvi_share1,
        100 * (a.bvi / a.admitted - b.bvi / b.admitted) AS bvi_share_change_pp,
        100 * ((a.bvi / a.admitted - b.bvi / b.admitted)
          - (a.reference_scaled_bvi / a.reference_scaled_admitted

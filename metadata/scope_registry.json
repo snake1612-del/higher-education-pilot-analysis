@@ -1,0 +1,3646 @@
+{
+  "version": "2026-10-16",
+  "primary_universities": [
+    "Московский авиационный институт (национальный исследовательский университет)",
+    "Московский педагогический государственный университет",
+    "Национальный исследовательский Томский государственный университет",
+    "Национальный исследовательский технологический университет \"МИСиС\", г. Москва"
+  ],
+  "links": [
+    {
+      "university": "Московский авиационный институт (национальный исследовательский университет)",
+      "short_name": "МАИ",
+      "major_group": "Авиационная и ракетно-космическая техника",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "retrospective_group_transition2023",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mai_history",
+        "mai_news23"
+      ],
+      "programmes": [
+        {
+          "program_id": "mai_family_1",
+          "code": "",
+          "name": "Самолёто- и вертолётостроение",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        },
+        {
+          "program_id": "mai_family_2",
+          "code": "",
+          "name": "Ракетно-космические комплексы",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        },
+        {
+          "program_id": "mai_family_3",
+          "code": "",
+          "name": "Авиационные и ракетные двигатели",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        },
+        {
+          "program_id": "mai_family_4",
+          "code": "",
+          "name": "Системы управления летательными аппаратами",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        },
+        {
+          "program_id": "mai_family_5",
+          "code": "",
+          "name": "Интегрированные системы летательных аппаратов",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Московский авиационный институт (национальный исследовательский университет)",
+      "short_name": "МАИ",
+      "major_group": "Авиационная и ракетно-космическая техника",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "retrospective_group_transition2023",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mai_history",
+        "mai_news23"
+      ],
+      "programmes": [
+        {
+          "program_id": "mai_family_1",
+          "code": "",
+          "name": "Самолёто- и вертолётостроение",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        },
+        {
+          "program_id": "mai_family_2",
+          "code": "",
+          "name": "Ракетно-космические комплексы",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        },
+        {
+          "program_id": "mai_family_3",
+          "code": "",
+          "name": "Авиационные и ракетные двигатели",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        },
+        {
+          "program_id": "mai_family_4",
+          "code": "",
+          "name": "Системы управления летательными аппаратами",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        },
+        {
+          "program_id": "mai_family_5",
+          "code": "",
+          "name": "Интегрированные системы летательных аппаратов",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "25.07.2023, «Изменения в МАИ», абзац 1",
+          "source_ids": "mai_news23",
+          "confidence": "B_announced"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Московский педагогический государственный университет",
+      "short_name": "МПГУ",
+      "major_group": "Журналистика и литературное творчество",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2025.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mpgu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "mpgu_catalog_192",
+          "code": "42.03.02",
+          "name": "Журналистика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 192; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Московский педагогический государственный университет",
+      "short_name": "МПГУ",
+      "major_group": "Лингвистика и иностранные языки",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mpgu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "mpgu_catalog_400",
+          "code": "45.03.02",
+          "name": "Перевод и межкультурная коммуникация (английский/китайский/испанский язык)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 400,401; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_403",
+          "code": "45.03.02",
+          "name": "Профессиональный перевод и лингвопереводческие технологии (английский язык)",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 403; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_405",
+          "code": "45.03.02",
+          "name": "Теория и методика преподавания иностранных языков и культур (английский язык)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 405; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Московский педагогический государственный университет",
+      "short_name": "МПГУ",
+      "major_group": "Математика",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mpgu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "mpgu_catalog_173",
+          "code": "01.03.01",
+          "name": "Преподавание математики",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 173,174; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Московский педагогический государственный университет",
+      "short_name": "МПГУ",
+      "major_group": "Педагогическое образование",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mpgu:transition23",
+        "mpgu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "mpgu_catalog_194",
+          "code": "44.03.01",
+          "name": "Биология и Безопасность жизнедеятельности",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 194,195; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_197",
+          "code": "44.03.01",
+          "name": "Биология и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 197,198; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_200",
+          "code": "44.03.01",
+          "name": "Биология и Химия",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 200,201; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_204",
+          "code": "44.03.01",
+          "name": "География",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 204,205; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_202",
+          "code": "44.03.01",
+          "name": "География",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 202; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_206",
+          "code": "44.03.01",
+          "name": "География и Иностранный язык (английский/китайский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 206,207; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_210",
+          "code": "44.03.01",
+          "name": "География и Экология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 210,211; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_213",
+          "code": "44.03.01",
+          "name": "Дополнительное образование (в области эстрадно-джазового искусства)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 213; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_preschool",
+          "code": "44.03.01",
+          "name": "Дошкольное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 215; ссылки УП 2023",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_214",
+          "code": "44.03.01",
+          "name": "Дошкольное образование",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 214; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_217",
+          "code": "44.03.01",
+          "name": "Дошкольное образование и Дополнительное образование (музыка/ изобразительное искусство)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 217; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_219",
+          "code": "44.03.01",
+          "name": "Дошкольное образование и Дополнительное образование (раннее физическое развитие)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 219; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_220",
+          "code": "44.03.01",
+          "name": "Дошкольное образование и Дополнительное образование (раннее физическое/музыкальное развитие)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 220; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_225",
+          "code": "44.03.01",
+          "name": "Изобразительное искусство",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 225; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_227",
+          "code": "44.03.01",
+          "name": "Изобразительное искусство и Дополнительное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 227,228; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_235",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский)",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 235; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_230",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 230,231; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_233",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский)",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 233; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_236",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский) и Иностранный язык (испанский/французский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 236,237; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_238",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский) и Иностранный язык (итальянский/немецкий)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 238,239; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_241",
+          "code": "44.03.01",
+          "name": "Иностранный язык (китайский) и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 241,242; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_chinese_rki",
+          "code": "44.03.01",
+          "name": "Иностранный язык (китайский) и Русский язык как иностранный",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 246,247,248; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_250",
+          "code": "44.03.01",
+          "name": "Информатика и Математика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 250,251; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_253",
+          "code": "44.03.01",
+          "name": "Информатика и Труд (Технология)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 253; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_257",
+          "code": "44.03.01",
+          "name": "История",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 257; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_255",
+          "code": "44.03.01",
+          "name": "История",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 255; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_259",
+          "code": "44.03.01",
+          "name": "История и Воспитательная работа",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 259,260; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_262",
+          "code": "44.03.01",
+          "name": "История и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 262,263; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_history_civic",
+          "code": "44.03.01",
+          "name": "История и Обществознание. Организация воспитательной деятельности",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 265,266,267; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_268",
+          "code": "44.03.01",
+          "name": "Коммуникативные стратегии в образовании",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 268; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_269",
+          "code": "44.03.01",
+          "name": "Математика и Дополнительное образование (информатика и технологии искусственного интеллекта)",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 269; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_271",
+          "code": "44.03.01",
+          "name": "Математика и Компьютерные науки",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 271; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_274",
+          "code": "44.03.01",
+          "name": "Математика и Экономика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 274,275; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_278",
+          "code": "44.03.01",
+          "name": "Мировая художественная культура и Дополнительное образование (журналистика)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 278,279; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_282",
+          "code": "44.03.01",
+          "name": "Музыка и Дополнительное образование (в области музыкального искусства)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 282,283; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_289",
+          "code": "44.03.01",
+          "name": "Начальное образование",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 289; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_285",
+          "code": "44.03.01",
+          "name": "Начальное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 285; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_286",
+          "code": "44.03.01",
+          "name": "Начальное образование",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 286,287; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_291",
+          "code": "44.03.01",
+          "name": "Начальное образование и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 291,292; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_295",
+          "code": "44.03.01",
+          "name": "Начальное образование и Информатика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 295,296; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_primary_history",
+          "code": "44.03.01",
+          "name": "Начальное образование и История",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 297,298,299; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_303",
+          "code": "44.03.01",
+          "name": "Обществознание и Дополнительное образование (культурно-досуговая деятельность)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 303; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_302",
+          "code": "44.03.01",
+          "name": "Обществознание и Экономико-правовое образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 302; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_305",
+          "code": "44.03.01",
+          "name": "Право и Иностранный язык (английский)",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 305,306; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_316",
+          "code": "44.03.01",
+          "name": "Русский язык и Литература",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 316,317; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_310",
+          "code": "44.03.01",
+          "name": "Русский язык и Литература",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 310,311; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_313",
+          "code": "44.03.01",
+          "name": "Русский язык и Литература",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 313,314; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_322",
+          "code": "44.03.01",
+          "name": "Русский язык как иностранный и Иностранный язык (английский)",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 322; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_319",
+          "code": "44.03.01",
+          "name": "Русский язык как иностранный и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 319,320; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_russian_lit_history",
+          "code": "44.03.01",
+          "name": "Русский язык, Литература и История",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 326,327,328; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_329",
+          "code": "44.03.01",
+          "name": "Технология, Информатика и Дополнительное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 329; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_physics",
+          "code": "44.03.01",
+          "name": "Физика и Информатика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 331,332,333; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_335",
+          "code": "44.03.01",
+          "name": "Физика и Химия",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 335; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_338",
+          "code": "44.03.01",
+          "name": "Физическая культура",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 338,339; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_336",
+          "code": "44.03.01",
+          "name": "Физическая культура",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 336; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_344",
+          "code": "44.03.01",
+          "name": "Физическая культура и Безопасность жизнедеятельности",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 344,345; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_341",
+          "code": "44.03.01",
+          "name": "Физическая культура и Спортивная подготовка",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 341,342; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Московский педагогический государственный университет",
+      "short_name": "МПГУ",
+      "major_group": "Педагогическое образование",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mpgu:transition23",
+        "mpgu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "mpgu_catalog_194",
+          "code": "44.03.01",
+          "name": "Биология и Безопасность жизнедеятельности",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 194,195; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_197",
+          "code": "44.03.01",
+          "name": "Биология и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 197,198; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_200",
+          "code": "44.03.01",
+          "name": "Биология и Химия",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 200,201; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_204",
+          "code": "44.03.01",
+          "name": "География",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 204,205; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_202",
+          "code": "44.03.01",
+          "name": "География",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 202; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_206",
+          "code": "44.03.01",
+          "name": "География и Иностранный язык (английский/китайский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 206,207; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_210",
+          "code": "44.03.01",
+          "name": "География и Экология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 210,211; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_213",
+          "code": "44.03.01",
+          "name": "Дополнительное образование (в области эстрадно-джазового искусства)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 213; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_preschool",
+          "code": "44.03.01",
+          "name": "Дошкольное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 215; ссылки УП 2023",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_214",
+          "code": "44.03.01",
+          "name": "Дошкольное образование",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 214; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_217",
+          "code": "44.03.01",
+          "name": "Дошкольное образование и Дополнительное образование (музыка/ изобразительное искусство)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 217; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_219",
+          "code": "44.03.01",
+          "name": "Дошкольное образование и Дополнительное образование (раннее физическое развитие)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 219; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_220",
+          "code": "44.03.01",
+          "name": "Дошкольное образование и Дополнительное образование (раннее физическое/музыкальное развитие)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 220; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_225",
+          "code": "44.03.01",
+          "name": "Изобразительное искусство",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 225; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_227",
+          "code": "44.03.01",
+          "name": "Изобразительное искусство и Дополнительное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 227,228; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_235",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский)",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 235; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_230",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 230,231; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_233",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский)",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 233; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_236",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский) и Иностранный язык (испанский/французский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 236,237; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_238",
+          "code": "44.03.01",
+          "name": "Иностранный язык (английский) и Иностранный язык (итальянский/немецкий)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 238,239; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_241",
+          "code": "44.03.01",
+          "name": "Иностранный язык (китайский) и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 241,242; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_chinese_rki",
+          "code": "44.03.01",
+          "name": "Иностранный язык (китайский) и Русский язык как иностранный",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 246,247,248; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_250",
+          "code": "44.03.01",
+          "name": "Информатика и Математика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 250,251; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_253",
+          "code": "44.03.01",
+          "name": "Информатика и Труд (Технология)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 253; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_257",
+          "code": "44.03.01",
+          "name": "История",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 257; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_255",
+          "code": "44.03.01",
+          "name": "История",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 255; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_259",
+          "code": "44.03.01",
+          "name": "История и Воспитательная работа",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 259,260; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_262",
+          "code": "44.03.01",
+          "name": "История и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 262,263; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_history_civic",
+          "code": "44.03.01",
+          "name": "История и Обществознание. Организация воспитательной деятельности",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 265,266,267; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_268",
+          "code": "44.03.01",
+          "name": "Коммуникативные стратегии в образовании",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 268; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_269",
+          "code": "44.03.01",
+          "name": "Математика и Дополнительное образование (информатика и технологии искусственного интеллекта)",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 269; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_271",
+          "code": "44.03.01",
+          "name": "Математика и Компьютерные науки",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 271; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_274",
+          "code": "44.03.01",
+          "name": "Математика и Экономика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 274,275; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_278",
+          "code": "44.03.01",
+          "name": "Мировая художественная культура и Дополнительное образование (журналистика)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 278,279; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_282",
+          "code": "44.03.01",
+          "name": "Музыка и Дополнительное образование (в области музыкального искусства)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 282,283; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_289",
+          "code": "44.03.01",
+          "name": "Начальное образование",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 289; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_285",
+          "code": "44.03.01",
+          "name": "Начальное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 285; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_286",
+          "code": "44.03.01",
+          "name": "Начальное образование",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 286,287; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_291",
+          "code": "44.03.01",
+          "name": "Начальное образование и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 291,292; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_295",
+          "code": "44.03.01",
+          "name": "Начальное образование и Информатика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 295,296; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_primary_history",
+          "code": "44.03.01",
+          "name": "Начальное образование и История",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 297,298,299; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_303",
+          "code": "44.03.01",
+          "name": "Обществознание и Дополнительное образование (культурно-досуговая деятельность)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 303; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_302",
+          "code": "44.03.01",
+          "name": "Обществознание и Экономико-правовое образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 302; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_305",
+          "code": "44.03.01",
+          "name": "Право и Иностранный язык (английский)",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 305,306; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_316",
+          "code": "44.03.01",
+          "name": "Русский язык и Литература",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 316,317; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_310",
+          "code": "44.03.01",
+          "name": "Русский язык и Литература",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 310,311; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_313",
+          "code": "44.03.01",
+          "name": "Русский язык и Литература",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 313,314; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_322",
+          "code": "44.03.01",
+          "name": "Русский язык как иностранный и Иностранный язык (английский)",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 322; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_319",
+          "code": "44.03.01",
+          "name": "Русский язык как иностранный и Иностранный язык (английский)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 319,320; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_russian_lit_history",
+          "code": "44.03.01",
+          "name": "Русский язык, Литература и История",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 326,327,328; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_329",
+          "code": "44.03.01",
+          "name": "Технология, Информатика и Дополнительное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 329; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_physics",
+          "code": "44.03.01",
+          "name": "Физика и Информатика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 331,332,333; ссылки УП 2023,2024,2025",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_335",
+          "code": "44.03.01",
+          "name": "Физика и Химия",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 335; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_338",
+          "code": "44.03.01",
+          "name": "Физическая культура",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 338,339; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_336",
+          "code": "44.03.01",
+          "name": "Физическая культура",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 336; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_344",
+          "code": "44.03.01",
+          "name": "Физическая культура и Безопасность жизнедеятельности",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 344,345; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_341",
+          "code": "44.03.01",
+          "name": "Физическая культура и Спортивная подготовка",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 341,342; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Московский педагогический государственный университет",
+      "short_name": "МПГУ",
+      "major_group": "Психолого-педагогическое и специальное (дефектологическое) образование",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mpgu:transition23",
+        "mpgu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "mpgu_catalog_349",
+          "code": "44.03.02",
+          "name": "Детская практическая психология и Дошкольное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 349,350; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_353",
+          "code": "44.03.02",
+          "name": "Практическая возрастная психология. Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 353,354; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_356",
+          "code": "44.03.02",
+          "name": "Психология и педагогика дошкольного образования",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 356; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_psychology",
+          "code": "44.03.02",
+          "name": "Психология и педагогика. Практическая возрастная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 357; ссылки УП 2023",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_359",
+          "code": "44.03.02",
+          "name": "Психология и педагогика. Профессиональное консультирование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 359,360; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_361",
+          "code": "44.03.02",
+          "name": "Психология и педагогика. Психология семьи и семейных отношений",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 361; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_362",
+          "code": "44.03.02",
+          "name": "Социальная психология и педагогика. Организация деятельности в сфере молодежной политики",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 362; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_364",
+          "code": "44.03.02",
+          "name": "Социальная психология и педагогика. Психология семьи и семейное консультирование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 364; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_365",
+          "code": "44.03.03",
+          "name": "Дошкольная дефектология и профиль по выбору (Олигофренопедагогика)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 365; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_366",
+          "code": "44.03.03",
+          "name": "Дошкольная дефектология и профиль по выбору (Психолого-педагогическое сопровождение лиц с расстройствами аутистического спектра)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 366; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_367",
+          "code": "44.03.03",
+          "name": "Дошкольная дефектология и профиль по выбору (Сурдопедагогика)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 367; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_368",
+          "code": "44.03.03",
+          "name": "Дошкольная дефектология и профиль по выбору (Тифлопедагогика)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 368; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_371",
+          "code": "44.03.03",
+          "name": "Начальное образование. Специальная педагогика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 371; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_385",
+          "code": "44.03.03",
+          "name": "Прикладная логопедия",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 385; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_374",
+          "code": "44.03.03",
+          "name": "Специальная педагогика (профиль по выбору: Дошкольная дефектология). Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 374; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_376",
+          "code": "44.03.03",
+          "name": "Специальная педагогика (профиль по выбору: Олигофренопедагогика). Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 376; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_378",
+          "code": "44.03.03",
+          "name": "Специальная педагогика (профиль по выбору: Сурдопедагогика). Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 378; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_380",
+          "code": "44.03.03",
+          "name": "Специальная педагогика (профиль по выбору: Тифлопедагогика). Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 380; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_387",
+          "code": "44.03.03",
+          "name": "Фундаментальная логопедия",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 387,388; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Московский педагогический государственный университет",
+      "short_name": "МПГУ",
+      "major_group": "Психолого-педагогическое и специальное (дефектологическое) образование",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "mpgu:transition23",
+        "mpgu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "mpgu_catalog_349",
+          "code": "44.03.02",
+          "name": "Детская практическая психология и Дошкольное образование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 349,350; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_353",
+          "code": "44.03.02",
+          "name": "Практическая возрастная психология. Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 353,354; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_356",
+          "code": "44.03.02",
+          "name": "Психология и педагогика дошкольного образования",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 356; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_psychology",
+          "code": "44.03.02",
+          "name": "Психология и педагогика. Практическая возрастная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "HTML строки 357; ссылки УП 2023",
+          "source_ids": "mpgu_catalog_current;mpgu:transition23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_359",
+          "code": "44.03.02",
+          "name": "Психология и педагогика. Профессиональное консультирование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 359,360; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_361",
+          "code": "44.03.02",
+          "name": "Психология и педагогика. Психология семьи и семейных отношений",
+          "form": "очно-заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 361; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_362",
+          "code": "44.03.02",
+          "name": "Социальная психология и педагогика. Организация деятельности в сфере молодежной политики",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 362; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_364",
+          "code": "44.03.02",
+          "name": "Социальная психология и педагогика. Психология семьи и семейное консультирование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 364; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_365",
+          "code": "44.03.03",
+          "name": "Дошкольная дефектология и профиль по выбору (Олигофренопедагогика)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 365; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_366",
+          "code": "44.03.03",
+          "name": "Дошкольная дефектология и профиль по выбору (Психолого-педагогическое сопровождение лиц с расстройствами аутистического спектра)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 366; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_367",
+          "code": "44.03.03",
+          "name": "Дошкольная дефектология и профиль по выбору (Сурдопедагогика)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 367; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_368",
+          "code": "44.03.03",
+          "name": "Дошкольная дефектология и профиль по выбору (Тифлопедагогика)",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 368; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_371",
+          "code": "44.03.03",
+          "name": "Начальное образование. Специальная педагогика",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 371; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_385",
+          "code": "44.03.03",
+          "name": "Прикладная логопедия",
+          "form": "заочная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 385; ссылки УП 2024",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_374",
+          "code": "44.03.03",
+          "name": "Специальная педагогика (профиль по выбору: Дошкольная дефектология). Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 374; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_376",
+          "code": "44.03.03",
+          "name": "Специальная педагогика (профиль по выбору: Олигофренопедагогика). Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 376; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_378",
+          "code": "44.03.03",
+          "name": "Специальная педагогика (профиль по выбору: Сурдопедагогика). Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 378; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_380",
+          "code": "44.03.03",
+          "name": "Специальная педагогика (профиль по выбору: Тифлопедагогика). Специальная психология",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "HTML строки 380; ссылки УП 2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "mpgu_catalog_387",
+          "code": "44.03.03",
+          "name": "Фундаментальная логопедия",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "HTML строки 387,388; ссылки УП 2024,2025",
+          "source_ids": "mpgu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Авиационная и ракетно-космическая техника",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_165",
+          "code": "24.03.03",
+          "name": "Баллистика и гидроаэродинамика",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 165; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_166",
+          "code": "24.03.03",
+          "name": "Технологии проектирования и управления беспилотными авиационными системами",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 166; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Авиационная и ракетно-космическая техника",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_165",
+          "code": "24.03.03",
+          "name": "Баллистика и гидроаэродинамика",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 165; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_166",
+          "code": "24.03.03",
+          "name": "Технологии проектирования и управления беспилотными авиационными системами",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 166; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Автоматика и управление",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_162",
+          "code": "15.03.06",
+          "name": "Промышленная и специальная робототехника",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 162; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_317",
+          "code": "27.04.05",
+          "name": "Molecular engineering",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Каталог СпВО, строка 317, HTML L452; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "C_candidate"
+        },
+        {
+          "program_id": "tsu_spvo_318",
+          "code": "27.04.05",
+          "name": "Отраслевой инжиниринг",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 318, HTML L453; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Автоматика и управление",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_162",
+          "code": "15.03.06",
+          "name": "Промышленная и специальная робототехника",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 162; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_317",
+          "code": "27.04.05",
+          "name": "Molecular engineering",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Каталог СпВО, строка 317, HTML L452; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "C_candidate"
+        },
+        {
+          "program_id": "tsu_spvo_318",
+          "code": "27.04.05",
+          "name": "Отраслевой инжиниринг",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 318, HTML L453; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Геология",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_154",
+          "code": "05.03.01",
+          "name": "Геология",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 154; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Журналистика и литературное творчество",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_176",
+          "code": "42.03.02",
+          "name": "Журналистика и новые медиа",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 176; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Журналистика и литературное творчество",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_176",
+          "code": "42.03.02",
+          "name": "Журналистика и новые медиа",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 176; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Информатика и вычислительная техника",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_155",
+          "code": "09.03.02",
+          "name": "Программное и аппаратное обеспечение беспилотных авиационных систем",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 155; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_156",
+          "code": "09.03.02",
+          "name": "Информационные системы и технологии в астрономии и космической геодезии",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 156; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_157",
+          "code": "09.03.02",
+          "name": "Цифровая астрономия и геоинформационные системы",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "БВО, строка каталога 157; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_158",
+          "code": "09.03.04",
+          "name": "Программная инженерия",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 158; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_159",
+          "code": "09.03.04",
+          "name": "ТОП-ИТ",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "БВО, строка каталога 159; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Информатика и вычислительная техника",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_155",
+          "code": "09.03.02",
+          "name": "Программное и аппаратное обеспечение беспилотных авиационных систем",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 155; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_156",
+          "code": "09.03.02",
+          "name": "Информационные системы и технологии в астрономии и космической геодезии",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 156; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_157",
+          "code": "09.03.02",
+          "name": "Цифровая астрономия и геоинформационные системы",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "БВО, строка каталога 157; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_158",
+          "code": "09.03.04",
+          "name": "Программная инженерия",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 158; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_159",
+          "code": "09.03.04",
+          "name": "ТОП-ИТ",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "БВО, строка каталога 159; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Лингвистика и иностранные языки",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_177",
+          "code": "45.05.01",
+          "name": "Моделирование перевода",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 177; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_178",
+          "code": "45.03.02",
+          "name": "Cultural, Language and Social Diversity",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 178; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_179",
+          "code": "45.03.02",
+          "name": "Технологическое планирование и реализация переводческих проектов",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 179; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_325",
+          "code": "45.04.01",
+          "name": "Юридическая лингвистика",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Каталог СпВО, строка 325, HTML L460; ОПОП/УП",
+          "source_ids": "tsu_catalog_current;demand:t_masters23",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_326",
+          "code": "45.04.02",
+          "name": "Экспертная оценка качества перевода",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 326, HTML L461; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Математика",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_149",
+          "code": "01.03.01",
+          "name": "Современная математика и математическое моделирование",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 149; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_150",
+          "code": "01.03.03",
+          "name": "Теоретическая, вычислительная и экспериментальная механика",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 150; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_151",
+          "code": "02.03.01",
+          "name": "Вычислительная математика и компьютерное моделирование",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 151; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Менеджмент",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_167",
+          "code": "27.03.05",
+          "name": "TISP Molecular Engineering",
+          "form": "Очная, в том числе с использованием дистанционных технологий",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 167; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_168",
+          "code": "27.03.05",
+          "name": "Управление инновациями в наукоемких технологиях",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 168; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_169",
+          "code": "27.03.05",
+          "name": "Молекулярная инженерия",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "БВО, строка каталога 169; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_170",
+          "code": "27.03.05",
+          "name": "Технологии проектирования и управления беспилотными авиационными системами",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 170; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_319",
+          "code": "38.04.02",
+          "name": "Создание технологического стартапа",
+          "form": "Очно-заочная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 319, HTML L454; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_320",
+          "code": "38.04.03",
+          "name": "Управление персоналом",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 320, HTML L455; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_321",
+          "code": "38.04.04",
+          "name": "Устойчивое развитие территорий",
+          "form": "Очно-заочная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 321, HTML L456; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_322",
+          "code": "38.04.08",
+          "name": "Финансовые технологии: разработка и внедрение",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 322, HTML L457; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Политология",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_174",
+          "code": "41.03.02",
+          "name": "Управление территорией: проекты регионального развития",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 174; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Реклама и связи с общественностью",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_175",
+          "code": "42.03.01",
+          "name": "Реклама и связи с общественностью: цифровые и сетевые коммуникации",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 175; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Сельское и рыбное хозяйство",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_171",
+          "code": "35.03.04",
+          "name": "Агробиология",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 171; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Технологические машины и оборудование",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_161",
+          "code": "15.03.03",
+          "name": "Компьютерный инжиниринг конструкций, биомеханических систем и материалов",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 161; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Технологические машины и оборудование",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_161",
+          "code": "15.03.03",
+          "name": "Компьютерный инжиниринг конструкций, биомеханических систем и материалов",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 161; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Физика",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_152",
+          "code": "03.03.03",
+          "name": "Киберфизические системы, прикладная электроника и квантовые технологии",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 152; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_163",
+          "code": "16.03.01",
+          "name": "Компьютерное моделирование в инженерной теплофизике и аэрогидродинамике",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 163; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_164",
+          "code": "16.03.01",
+          "name": "Искусственный интеллект в инженерной физике",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "БВО, строка каталога 164; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "C_candidate"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Физика",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_152",
+          "code": "03.03.03",
+          "name": "Киберфизические системы, прикладная электроника и квантовые технологии",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 152; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_163",
+          "code": "16.03.01",
+          "name": "Компьютерное моделирование в инженерной теплофизике и аэрогидродинамике",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 163; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_164",
+          "code": "16.03.01",
+          "name": "Искусственный интеллект в инженерной физике",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "БВО, строка каталога 164; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "C_candidate"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Химия",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_153",
+          "code": "04.05.01",
+          "name": "Фундаментальная и прикладная химия",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 153; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_309",
+          "code": "04.04.01",
+          "name": "Химия современных материалов и технологий",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 309, HTML L444; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_310",
+          "code": "04.04.01",
+          "name": "Methods of studying substances, materials, natural and technological objects",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "Каталог СпВО, строка 310, HTML L445; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_311",
+          "code": "04.04.01",
+          "name": "Трансляционные химические и биомедицинские технологии",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "Каталог СпВО, строка 311, HTML L446; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_312",
+          "code": "04.04.01",
+          "name": "Molecular engineering",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Каталог СпВО, строка 312, HTML L447; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "C_candidate"
+        },
+        {
+          "program_id": "tsu_spvo_313",
+          "code": "04.04.01",
+          "name": "Цифровая химия",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 313, HTML L448; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_314",
+          "code": "04.04.01",
+          "name": "Молекулярная инженерия",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 314, HTML L449; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Химия",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_153",
+          "code": "04.05.01",
+          "name": "Фундаментальная и прикладная химия",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 153; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_309",
+          "code": "04.04.01",
+          "name": "Химия современных материалов и технологий",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 309, HTML L444; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_310",
+          "code": "04.04.01",
+          "name": "Methods of studying substances, materials, natural and technological objects",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "Каталог СпВО, строка 310, HTML L445; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_311",
+          "code": "04.04.01",
+          "name": "Трансляционные химические и биомедицинские технологии",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2025",
+          "locator": "Каталог СпВО, строка 311, HTML L446; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_312",
+          "code": "04.04.01",
+          "name": "Molecular engineering",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Каталог СпВО, строка 312, HTML L447; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "C_candidate"
+        },
+        {
+          "program_id": "tsu_spvo_313",
+          "code": "04.04.01",
+          "name": "Цифровая химия",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 313, HTML L448; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_spvo_314",
+          "code": "04.04.01",
+          "name": "Молекулярная инженерия",
+          "form": "Очная",
+          "level": "СпВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "Каталог СпВО, строка 314, HTML L449; ОПОП/УП",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Электронная техника, радиотехника и связь",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2024.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_160",
+          "code": "11.05.01",
+          "name": "Программное обеспечение микропроцессорных систем",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 160; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Юриспруденция",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_172",
+          "code": "40.03.01",
+          "name": "Юриспруденция",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 172; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_173",
+          "code": "40.03.01",
+          "name": "Цифровой юрист",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 173; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский Томский государственный университет",
+      "short_name": "ТГУ",
+      "major_group": "Юриспруденция",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "tsu_catalog_current"
+      ],
+      "programmes": [
+        {
+          "program_id": "tsu_bvo_172",
+          "code": "40.03.01",
+          "name": "Юриспруденция",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "БВО, строка каталога 172; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        },
+        {
+          "program_id": "tsu_bvo_173",
+          "code": "40.03.01",
+          "name": "Цифровой юрист",
+          "form": "Очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2024",
+          "locator": "БВО, строка каталога 173; ОПОП/УП по указанным годам",
+          "source_ids": "tsu_catalog_current",
+          "confidence": "A_metadata"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Материалы",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_22.03.01",
+          "code": "22.03.01",
+          "name": "Материаловедение и технологии материалов",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Материалы",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_22.03.01",
+          "code": "22.03.01",
+          "name": "Материаловедение и технологии материалов",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Металлургия",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_22.03.02",
+          "code": "22.03.02",
+          "name": "Металлургия",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Металлургия",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_22.03.02",
+          "code": "22.03.02",
+          "name": "Металлургия",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Технологические машины и оборудование",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_15.03.02",
+          "code": "15.03.02",
+          "name": "Технологические машины и оборудование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Технологические машины и оборудование",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_15.03.02",
+          "code": "15.03.02",
+          "name": "Технологические машины и оборудование",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Электронная техника, радиотехника и связь",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_11.03.04",
+          "code": "11.03.04",
+          "name": "Электроника и наноэлектроника",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Электронная техника, радиотехника и связь",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_11.03.04",
+          "code": "11.03.04",
+          "name": "Электроника и наноэлектроника",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Энергетика и энергетическое машиностроение",
+      "scope": "cohort2023",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_13.03.02",
+          "code": "13.03.02",
+          "name": "Электроэнергетика и электротехника",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Национальный исследовательский технологический университет \"МИСиС\", г. Москва",
+      "short_name": "МИСИС",
+      "major_group": "Энергетика и энергетическое машиностроение",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "documented_cohort_metadata",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:m_news23",
+        "demand:m_price23"
+      ],
+      "programmes": [
+        {
+          "program_id": "misis_13.03.02",
+          "code": "13.03.02",
+          "name": "Электроэнергетика и электротехника",
+          "form": "очная",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "Приказ 09.06.2023 №258 о.в., приложение 1, с.3, раздел БВО",
+          "source_ids": "demand:m_price23;demand:m_news23",
+          "confidence": "B_archival_text"
+        }
+      ],
+      "caveat": "earliest documented cohort, not necessarily first actual intake; unknown pilot fraction"
+    },
+    {
+      "university": "Санкт-Петербургский горный университет",
+      "short_name": "Горный",
+      "major_group": "Архитектура и градостроительство",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "historical_group_link",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:g2022",
+        "demand:g2023",
+        "demand:g2024",
+        "gorny_catalog24",
+        "gorny_transition"
+      ],
+      "programmes": [
+        {
+          "program_id": "gorny_catalog_50",
+          "code": "08.05.01-П",
+          "name": "Строительство подземных сооружений",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Отчет 2024, печатная с.11, блок Строительство, код и название строки",
+          "source_ids": "gorny_catalog24;gorny_transition",
+          "confidence": "C_catalogue_text"
+        },
+        {
+          "program_id": "gorny_catalog_51",
+          "code": "08.05.01-П",
+          "name": "Строительство высотных и большепролётных зданий и сооружений",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Отчет 2024, печатная с.11, блок Строительство, код и название строки",
+          "source_ids": "gorny_catalog24;gorny_transition",
+          "confidence": "C_catalogue_text"
+        },
+        {
+          "program_id": "gorny_catalog_53",
+          "code": "07.04.01-П",
+          "name": "Архитектура",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Отчет 2024, печатная с.11, блок Архитектура, код и название строки",
+          "source_ids": "gorny_catalog24;gorny_transition",
+          "confidence": "C_catalogue_text"
+        },
+        {
+          "program_id": "gorny_group_construction",
+          "code": "08.05.01",
+          "name": "Строительство уникальных зданий и сооружений",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "PDF 2022/23: с.1, одноименная строка; PDF 2024: с.1, строки 53–55",
+          "source_ids": "demand:g2022;demand:g2023;demand:g2024;gorny_transition",
+          "confidence": "B_transition_at_group"
+        }
+      ],
+      "caveat": "2023 cohort transferred after admission; direct BVO admission2024; geo2025 disputed"
+    },
+    {
+      "university": "Санкт-Петербургский горный университет",
+      "short_name": "Горный",
+      "major_group": "Геодезия и землеустройство",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "historical_group_link",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:g2022",
+        "demand:g2023",
+        "demand:g2024",
+        "gorny_catalog24",
+        "gorny_transition"
+      ],
+      "programmes": [
+        {
+          "program_id": "gorny_catalog_21",
+          "code": "21.05.01-П",
+          "name": "Инженерная геодезия",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Отчет 2024, печатная с.10, блок Геодезическое, код и название строки",
+          "source_ids": "gorny_catalog24;gorny_transition",
+          "confidence": "C_catalogue_text"
+        },
+        {
+          "program_id": "gorny_catalog_32",
+          "code": "21.04.02-П",
+          "name": "Землеустройство и кадастры",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Отчет 2024, печатная с.10, блок Кадастровое, код и название строки",
+          "source_ids": "gorny_catalog24;gorny_transition",
+          "confidence": "C_catalogue_text"
+        },
+        {
+          "program_id": "gorny_group_geodesy",
+          "code": "21.05.01",
+          "name": "Прикладная геодезия",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "PDF 2022/23: с.1, одноименная строка; PDF 2024: с.1, строки 53–55",
+          "source_ids": "demand:g2022;demand:g2023;demand:g2024;gorny_transition",
+          "confidence": "B_transition_at_group"
+        }
+      ],
+      "caveat": "2023 cohort transferred after admission; direct BVO admission2024; geo2025 disputed"
+    },
+    {
+      "university": "Санкт-Петербургский горный университет",
+      "short_name": "Горный",
+      "major_group": "Электронная техника, радиотехника и связь",
+      "scope": "confirmed_eventual",
+      "first_documented_year": "2023.0",
+      "evidence_status": "historical_group_link",
+      "pilot_fraction": "unknown",
+      "source_ids": [
+        "demand:g2022",
+        "demand:g2023",
+        "demand:g2024",
+        "gorny_catalog24",
+        "gorny_transition"
+      ],
+      "programmes": [
+        {
+          "program_id": "gorny_catalog_47",
+          "code": "11.05.01-П",
+          "name": "Проектирование и технология радиоэлектронных систем и комплексов",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Отчет 2024, печатная с.11, блок Радиоэлектроника, код и название строки",
+          "source_ids": "gorny_catalog24;gorny_transition",
+          "confidence": "C_catalogue_text"
+        },
+        {
+          "program_id": "gorny_catalog_48",
+          "code": "11.04.04-П",
+          "name": "Промышленная электроника",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "",
+          "locator": "Отчет 2024, печатная с.11, блок Радиоэлектроника, код и название строки",
+          "source_ids": "gorny_catalog24;gorny_transition",
+          "confidence": "C_catalogue_text"
+        },
+        {
+          "program_id": "gorny_group_radio",
+          "code": "11.05.01",
+          "name": "Радиоэлектронные системы и комплексы",
+          "form": "",
+          "level": "БВО",
+          "first_confirmed_pilot_cohort": "2023",
+          "locator": "PDF 2022/23: с.1, одноименная строка; PDF 2024: с.1, строки 53–55",
+          "source_ids": "demand:g2022;demand:g2023;demand:g2024;gorny_transition",
+          "confidence": "B_transition_at_group"
+        }
+      ],
+      "caveat": "2023 cohort transferred after admission; direct BVO admission2024; geo2025 disputed"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "demand:g2022",
+      "url": "https://priem.spmi.ru/sites/default/files/manager/PK2022/Svedenia_o_prieme.pdf",
+      "locator": "Прием 2022/2023; снимок 2022-08-05 20:52",
+      "verification": "full_table_text",
+      "scope": "Полный извлеченный текст PDF; заголовки и строки проверены. 2022/23 p1 строки 57–68; 2024 p1 строки 53–64. Визуальная сверка PDF недоступна. Бюджет: КЦП и подано заявлений всего, включая квоты; контрактные заявления отдельно. Не люди и не зачисленные. 2024 не печатает цифровые коды; используются коды предшественников.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "demand:g2023",
+      "url": "https://priem.spmi.ru/sites/default/files/manager/PK2023/svedenia_o_prieme.pdf",
+      "locator": "Прием 2023/2024; снимок 2023-08-10 09:51",
+      "verification": "full_table_text",
+      "scope": "Полный извлеченный текст PDF; заголовки и строки проверены. 2022/23 p1 строки 57–68; 2024 p1 строки 53–64. Визуальная сверка PDF недоступна. Бюджет: КЦП и подано заявлений всего, включая квоты; контрактные заявления отдельно. Не люди и не зачисленные. 2024 не печатает цифровые коды; используются коды предшественников.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "demand:g2024",
+      "url": "https://priem.spmi.ru/sites/default/files/manager/PK2024/svedenia_o_prieme.pdf",
+      "locator": "Прием 2024/2025; снимок 2024-08-09 10:06",
+      "verification": "full_table_text",
+      "scope": "Полный извлеченный текст PDF; заголовки и строки проверены. 2022/23 p1 строки 57–68; 2024 p1 строки 53–64. Визуальная сверка PDF недоступна. Бюджет: КЦП и подано заявлений всего, включая квоты; контрактные заявления отдельно. Не люди и не зачисленные. 2024 не печатает цифровые коды; используются коды предшественников.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "demand:m_news23",
+      "url": "https://misis.ru/news/8662/",
+      "locator": "14.08.2023, итоги приема",
+      "verification": "full_text_news",
+      "scope": "Пять направлений, 220 бюджетных мест БВО освоены; 1249 бюджетных первокурсников по вузу. Фраза 50 чел./место не имеет программного знаменателя и не использована как A/220.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "demand:m_price23",
+      "url": "https://misis.ru/files/-/5ee3530d8f39bddc8a2270f66104e629/09.06.2023_258_st.pdf",
+      "locator": "Приказ 09.06.2023 №258 о.в.; приложение 1, с.3",
+      "verification": "full_text",
+      "scope": "Пять очных направлений БВО набора 2023; цена первого курса 310 тыс. руб./год по каждому. Это направления, не доказанный отдельный профиль/группа и не КЦП.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "gorny_catalog24",
+      "url": "https://spmi.ru/sites/default/files/imci_images/univer/document/2025/otchet-2024_1.pdf",
+      "locator": "Печатные с.9–11, «Квалификации выпускников программы Высшее инженерное образование»",
+      "verification": "текст PDF; визуальная проверка недоступна",
+      "scope": "58 извлеченных именованных позиций; не индивидуальные конкурсные группы. Отчет упоминает 62 программы; разница не восполняется догадкой.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "gorny_transition",
+      "url": "https://spmi.ru/sites/default/files/imci_images/univer/document/2025/otchet-2024_1.pdf",
+      "locator": "Печатные с.6–7, абзацы о наборе 2023/24 и приеме 2024/25",
+      "verification": "полный текст PDF, повествовательный раздел",
+      "scope": "Набор 2023 переведен на БВО после поступления; с 2024 прямой прием. Не доказывает наличие каждого профиля каталога в когорте 2023.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "mai_history",
+      "university": "МАИ",
+      "url": "https://mai.ru/press/news/detail.php?ID=179880",
+      "document_date": "19.04.2024",
+      "locator": "Абзац «Пилотный проект внедряется…»",
+      "fact": "Ретроспективно: в 2023/24 трансформированы профильные направления УГСН 24; очное БВО 4/5,5 года; 2024/25 переход всех направлений объявлен будущим",
+      "access_and_verification": "Официальное сообщение; полный текст доступен в поисковом представлении, прямой open возвращает ошибку",
+      "limit": "Подтверждение связи группы с 2023/24; не поименный реестр фактического зачисления по всем кодам/формам"
+    },
+    {
+      "source_id": "mai_news23",
+      "url": "https://mai.ru/press/news/detail.php?ID=175303",
+      "locator": "25.07.2023; «Изменения в МАИ», «Передовая инженерная школа»; строки HTML 64–86",
+      "verification": "полный текст официальной новости",
+      "scope": "Пять аэрокосмических семейств и именованное предложение ПИШ БВО; четыре направления СпВО. Не полный реестр фактически открытых профилей.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "mpgu:transition23",
+      "url": "https://mpgu.su/wp-content/uploads/2023/06/pk23-prikaz-775-bak-mag-izm.pdf",
+      "locator": "Изменение плана приема 2023/24: удаленные бакалаврские строки и семь новых строк БВО; не прием 2022",
+      "verification": "прежняя проверка; уровень визуального аудита уточнять",
+      "scope": "2023-05-29",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "mpgu_catalog_current",
+      "url": "https://mpgu.su/sveden/education/",
+      "locator": "HTML, строки 170–414, отдельная строка: код / форма / название / год учебного плана",
+      "verification": "полный текст HTML; исторические годы ссылок УП",
+      "scope": "БВО с УП 2023–2025; 2026 исключен. Каталог не является статистикой приема.",
+      "checked": "2026-10-15"
+    },
+    {
+      "source_id": "tsu_catalog_current",
+      "url": "https://dev-ru.tsu.ru/sveden/education/eduop/",
+      "locator": "БВО: строки каталога 149–179; СпВО: 308–327",
+      "verification": "полный текст HTML; годы ОПОП/УП",
+      "scope": "Самая ранняя видимая ссылка — первый подтвержденный документ набора, не обязательно первое открытие.",
+      "checked": "2026-10-15"
+    }
+  ],
+  "interpretation": "Historical metadata from public university documents, not admission observations. Partial registry; whole MKP groups are never asserted fully pilot. Registry with source locators compiled 2026-10-15; not all URLs can be re-fetched."
+}
