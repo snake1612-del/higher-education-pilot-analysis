@@ -63,6 +63,8 @@ def estimate(data, university, groups, pools, metric, base, end, fixed_controls=
     return dict(groups_used=len(groups),n0=a['n'],n1=z['n'],growth_pct=growth,
                 growth_gap_pp=growth-rg if growth is not None and rg is not None else None,
                 score_gap=(z['q']-a['q'])-(z['rq']-a['rq']) if metric=='score' else None,
+                own_score_change=z['q']-a['q'] if metric=='score' else None,
+                reference_score_change=z['rq']-a['rq'] if metric=='score' else None,
                 bvi0=a['b'] if metric=='bvi' else None,bvi1=z['b'] if metric=='bvi' else None,
                 share_gap_pp=100*((z['b']/z['n']-a['b']/a['n'])
                  -(z['rb']/z['rn']-a['rb']/a['rn'])) if metric=='bvi' else None)
@@ -104,24 +106,25 @@ def calculate(input_csv, registry=None):
             if scope != 'whole' and u not in registry['primary_universities']:
                 continue
             for metric in ('score','bvi','intake'):
-                candidates = groups_by_u[u] if scope=='whole' else links[u,scope]
-                for base in (2021,2022):
-                    gs = sorted(g for g in candidates if (u,g) in stable[metric]
-                                and pools[g,metric]
-                                and sum(data[c,g,base][0] for c in pools[g,metric])>0)
-                    if not gs:
-                        continue
-                    for fixed in ((False,True) if metric=='score' else (False,)):
-                        thresholds = (0,5,10,20) if metric=='bvi' and scope!='whole' else (0,)
-                        for threshold in thresholds:
-                            selected = [g for g in gs if metric!='bvi' or data[u,g,base][1]>=threshold]
-                            if not selected:
-                                continue
-                            for end in range(base+1,2026):
-                                result = estimate(data,u,selected,pools,metric,base,end,fixed)
-                                result.update(university=u,scope=scope,metric=metric,base_year=base,
-                                              end_year=end,fixed_controls=fixed,min_bvi=threshold)
-                                results.append(result)
+                for side in (('all',) if scope=='whole' else ('linked','other_observed')):
+                    candidates = groups_by_u[u] if scope=='whole' else (links[u,scope] if side=='linked' else groups_by_u[u]-links[u,scope])
+                    for base in (2021,2022):
+                        gs = sorted(g for g in candidates if (u,g) in stable[metric]
+                                    and pools[g,metric]
+                                    and sum(data[c,g,base][0] for c in pools[g,metric])>0)
+                        if not gs:
+                            continue
+                        for fixed in ((False,True) if metric=='score' else (False,)):
+                            thresholds = (0,5,10,20) if metric=='bvi' and side=='linked' else (0,)
+                            for threshold in thresholds:
+                                selected = [g for g in gs if metric!='bvi' or data[u,g,base][1]>=threshold]
+                                if not selected:
+                                    continue
+                                for end in range(base+1,2026):
+                                    result = estimate(data,u,selected,pools,metric,base,end,fixed)
+                                    result.update(university=u,scope=scope,side=side,metric=metric,base_year=base,
+                                                  end_year=end,fixed_controls=fixed,min_bvi=threshold)
+                                    results.append(result)
     return results
 
 

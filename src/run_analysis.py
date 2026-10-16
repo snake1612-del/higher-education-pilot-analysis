@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from prepare_inputs import prepare
 from independent_check import calculate
+from presentation_checks import calculate_extras, compare_extras
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -23,7 +24,8 @@ def compare_results(sql, python):
     """Check every SQL family separately, including main and threshold-zero BVI."""
     def key(r, metric=None, fixed=False, threshold=0):
         return (r['university'],r['scope'],metric or r.get('metric'),
-                int(r['base_year']),int(r['end_year']),fixed,threshold)
+                int(r['base_year']),int(r['end_year']),fixed,threshold,
+                r.get('side','all' if r['scope']=='whole' else 'linked'))
     expected = {}
     for row in python:
         k = key(row,fixed=row['fixed_controls'],threshold=row['min_bvi'])
@@ -37,8 +39,6 @@ def compare_results(sql, python):
         seen = set()
         row_count = checked = 0
         for target in sql[family]:
-            if family != 'bvi_thresholds' and target['side'] not in ('all','linked'):
-                continue
             threshold = int(target['min_bvi']) if family=='bvi_thresholds' else 0
             metric = 'score' if fixed else 'bvi' if family=='bvi_thresholds' else target['metric']
             k = key(target,metric,fixed,threshold)
@@ -57,7 +57,9 @@ def compare_results(sql, python):
             else:
                 names += [(n,n) for n in ('n0','n1','growth_pct','growth_gap_pp')]
                 if metric=='score':
-                    names += [('score_gap','ege_fixed_gap')]
+                    names += [('score_gap','ege_fixed_gap'),
+                              ('own_score_change','ege_fixed_change'),
+                              ('reference_score_change','reference_ege_fixed_change')]
                 elif metric=='bvi':
                     names += [('bvi0','bvi0'),('bvi1','bvi1'),('share_gap_pp','bvi_share_gap_pp')]
             for name,sql_name in names:
@@ -72,7 +74,7 @@ def compare_results(sql, python):
         if family == 'double_fixed':
             required = {k for k in expected if k[5]}
         elif family == 'bvi_thresholds':
-            required = {k for k in expected if k[2]=='bvi' and k[1]!='whole'}
+            required = {k for k in expected if k[2]=='bvi' and k[7]=='linked'}
         else:
             required = {k for k in expected if not k[5] and k[6]==0}
         if seen != required:
@@ -143,7 +145,7 @@ def _execute(args,run_id,started):
     for name in ['01_prepare_data.sql','02_quality_checks.sql','04_fixed_panels.sql',
                  '03_exploratory_comparison.sql','05_main_comparisons.sql',
                  '06_linked_intake_share.sql','07_bvi.sql','08_baseline_sensitivity.sql',
-                 '11_audit_sensitivity.sql','12_assert_final_panels.sql']:
+                 '11_audit_sensitivity.sql','12_assert_final_panels.sql','13_presentation_checks.sql']:
         file(name)
     if args.mev:
         file('09_mev_context.sql')
@@ -158,6 +160,10 @@ def _execute(args,run_id,started):
         'selection_flow':'SELECT * FROM research.selection_flow',
         'panel_coverage':'SELECT * FROM research.panel_coverage',
         'panel_members':'SELECT * FROM research.final_panel_members',
+        'linked_shares':'SELECT * FROM research.linked_intake_share',
+        'internal_contrasts':'SELECT * FROM research.internal_score_contrasts',
+        'bvi_donors':'SELECT * FROM research.bvi_donor_changes',
+        'bvi_donor_members':'SELECT * FROM research.bvi_donor_members',
     }
     sql = {name:query(command) for name,command in tables.items()}
     for name,rows in sql.items():
@@ -165,6 +171,12 @@ def _execute(args,run_id,started):
     python = calculate(private/'mkp_budget.csv')
     save('independent_python',python)
     verification = compare_results(sql,python)
+    extras = calculate_extras(private/'mkp_budget.csv',python)
+    save('independent_extras',extras)
+    extra_verification = compare_extras(sql,extras)
+    verification['presentation_checks'] = extra_verification
+    verification['numeric_checks'] += sum(v['numeric_checks'] for v in extra_verification.values())
+    verification['sql_rows_checked'] += sum(v['rows'] for v in extra_verification.values())
     chart_dir = output/'chart_data'
     chart_dir.mkdir(exist_ok=True)
     export = (ROOT/'sql/10_export_chart_data.psql').read_text()
