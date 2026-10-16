@@ -110,4 +110,4 @@ The runner prepares Excel inputs, imports the documented registry, executes SQL,
 
 Data were provided by the [2026 HSE Higher Education Research Hackathon](https://educonf.hse.ru/2026/hackathon/). [Monitoring Quality of Admission](https://ege.hse.ru/) · [Methodology](https://ege.hse.ru/method) · [Subject classification](https://ege.hse.ru/groups).
 
-These data were obtained from Monitoring Quality of Admission to Russian Universities by NRU HSE (http://ege.hse.ru/). The authors thank the Laboratory for University Development at the Institute of Education of the HSE University for providing a consolidated database of indicators for Monitoring the effectiveness of universities.
+These data were obtained from Monitoring Quality of Admission to Russian Universities by NRU HSE (http://ege.hse.ru/). The author thanks the Laboratory for University Development at the Institute of Education of the HSE University for providing a consolidated database of indicators for Monitoring the effectiveness of universities.
