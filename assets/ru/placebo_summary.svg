@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="835.2pt" height="291.6pt" viewBox="0 0 835.2 291.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 291.6 
+L 835.2 291.6 
+L 835.2 0 
+L 0 0 
+z
+" style="fill: #fafaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 87.696 230.364 
+L 424.585665 230.364 
+L 424.585665 87.48 
+L 87.696 87.48 
+z
+" style="fill: #fafaf7"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 257.199363 101.53026 
+L 127.081012 101.53026 
+L 127.081012 112.00842 
+L 257.199363 112.00842 
+z
+" clip-path="url(#p98a4bfcc9b)" style="fill: #a8bbc5"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 257.199363 149.15826 
+L 355.349412 149.15826 
+L 355.349412 159.63642 
+L 257.199363 159.63642 
+z
+" clip-path="url(#p98a4bfcc9b)" style="fill: #a8bbc5"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 257.199363 196.78626 
+L 376.98126 196.78626 
+L 376.98126 207.26442 
+L 257.199363 207.26442 
+z
+" clip-path="url(#p98a4bfcc9b)" style="fill: #a8bbc5"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 257.199363 115.34238 
+L 176.334919 115.34238 
+L 176.334919 125.82054 
+L 257.199363 125.82054 
+z
+" clip-path="url(#p98a4bfcc9b)" style="fill: #007c83"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 257.199363 162.97038 
+L 358.633842 162.97038 
+L 358.633842 173.44854 
+L 257.199363 173.44854 
+z
+" clip-path="url(#p98a4bfcc9b)" style="fill: #007c83"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 257.199363 210.59838 
+L 367.463513 210.59838 
+L 367.463513 221.07654 
+L 257.199363 221.07654 
+z
+" clip-path="url(#p98a4bfcc9b)" style="fill: #007c83"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #152d43" x="81.696" y="117.474619" transform="rotate(-0 81.696 117.474619)">МАИ</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #152d43" x="81.696" y="165.102619" transform="rotate(-0 81.696 165.102619)">МПГУ</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #152d43" x="81.696" y="212.730619" transform="rotate(-0 81.696 212.730619)">МИСИС</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_4">
+    <path d="M 257.199363 230.364 
+L 257.199363 87.48 
+" clip-path="url(#p98a4bfcc9b)" style="fill: none; stroke: #7d929f; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #152d43" x="120.680948" y="109.252778" transform="rotate(-0 120.680948 109.252778)">−13,22</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="361.749476" y="156.880777" transform="rotate(-0 361.749476 156.880777)">+9,97</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="383.381325" y="204.508777" transform="rotate(-0 383.381325 204.508777)">+12,17</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #152d43" x="169.934854" y="123.064898" transform="rotate(-0 169.934854 123.064898)">−8,21</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="365.033907" y="170.692897" transform="rotate(-0 365.033907 170.692897)">+10,30</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="373.863577" y="218.320897" transform="rotate(-0 373.863577 218.320897)">+11,20</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_9">
+     <path d="M 135.971688 246.449947 
+L 152.771688 246.449947 
+L 152.771688 240.569947 
+L 135.971688 240.569947 
+z
+" style="fill: #a8bbc5"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 8.4px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="159.491688" y="246.449947" transform="rotate(-0 159.491688 246.449947)">Фон с равными весами</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 277.812251 246.449947 
+L 294.612251 246.449947 
+L 294.612251 240.569947 
+L 277.812251 240.569947 
+z
+" style="fill: #007c83"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 8.4px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="301.332251" y="246.449947" transform="rotate(-0 301.332251 246.449947)">Синтетический фон</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_11">
+    <path d="M 515.545875 230.364 
+L 805.968 230.364 
+L 805.968 87.48 
+L 515.545875 87.48 
+z
+" style="fill: #fafaf7"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 515.545875 107.96004 
+L 763.769913 107.96004 
+L 763.769913 119.39076 
+L 515.545875 119.39076 
+z
+" clip-path="url(#p3db7c08b16)" style="fill: #e0e7e9"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 515.545875 155.58804 
+L 763.769913 155.58804 
+L 763.769913 167.01876 
+L 515.545875 167.01876 
+z
+" clip-path="url(#p3db7c08b16)" style="fill: #e0e7e9"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 515.545875 203.21604 
+L 763.769913 203.21604 
+L 763.769913 214.64676 
+L 515.545875 214.64676 
+z
+" clip-path="url(#p3db7c08b16)" style="fill: #e0e7e9"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 515.545875 107.96004 
+L 728.309336 107.96004 
+L 728.309336 119.39076 
+L 515.545875 119.39076 
+z
+" clip-path="url(#p3db7c08b16)" style="fill: #007c83"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 515.545875 155.58804 
+L 635.779394 155.58804 
+L 635.779394 167.01876 
+L 515.545875 167.01876 
+z
+" clip-path="url(#p3db7c08b16)" style="fill: #007c83"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 515.545875 203.21604 
+L 681.028567 203.21604 
+L 681.028567 214.64676 
+L 515.545875 214.64676 
+z
+" clip-path="url(#p3db7c08b16)" style="fill: #007c83"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4"/>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 10.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="515.545875" y="74.62044" transform="rotate(-0 515.545875 74.62044)">Плацебо с таким же или большим разрывом</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="515.545875" y="85.765392" transform="rotate(-0 515.545875 85.765392)">По абсолютной величине, среди прошедших проверку на 2022 годе</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="769.975514" y="116.296806" transform="rotate(-0 769.975514 116.296806)">12/14</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="769.975514" y="163.924806" transform="rotate(-0 769.975514 163.924806)">31/64</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="769.975514" y="211.552806" transform="rotate(-0 769.975514 211.552806)">2/3</text>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="29.232" y="29.574563" transform="rotate(-0 29.232 29.574563)">Опережение по зачислению зависит от вуза</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="29.232" y="51.080925" transform="rotate(-0 29.232 51.080925)">Разность темпов роста бюджетного зачисления за 2022–2025 годы, п.п.</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 8.4px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #152d43" x="29.232" y="279.0612" transform="rotate(-0 29.232 279.0612)">У ТГУ два аналога с полными данными: оценка не рассчитана. МКП НИУ ВШЭ, расчёты автора.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p98a4bfcc9b">
+   <rect x="87.696" y="87.48" width="336.889665" height="142.884"/>
+  </clipPath>
+  <clipPath id="p3db7c08b16">
+   <rect x="515.545875" y="87.48" width="290.422125" height="142.884"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -10,6 +10,8 @@ The study examines state-funded admissions in 2021–2025: mean entrance scores,
 
 **Main finding:** the available indirect indicators do not provide robust evidence of a common increase in attractiveness. Enrolment expansion and isolated positive changes do not establish an overall increase in demand or a causal effect of the pilot.
 
+**Post-hackathon extension:** MPGU enrolment grew faster under both benchmarks, but similarly large gaps were common among non-pilot universities. [Placebos and synthetic control](#how-sensitive-are-the-results-to-the-benchmark).
+
 ## Data and scope
 
 | Source | Use |
@@ -52,6 +54,22 @@ In the separate BVI subpanel, the count increased from **48 to 79** and the shar
 
 An increase in absolute BVI counts therefore does not establish a common advantage. The chart presents both counts and relative changes so that large percentage increases do not conceal small initial numbers.
 
+## How sensitive are the results to the benchmark?
+
+The extension compares **difference-in-differences** and **synthetic control** for identical subject baskets. The first weights comparable universities equally. The second uses those same real universities but chooses weights to match entrance scores, enrolment size and subject mix in **2021 only**. Both compare changes from 2022 to 2025.
+
+**2022 is held out** to assess fit before it is used as the comparison baseline. For the placebo, each non-pilot university in turn is treated as if it joined the pilot in 2023 and is left out of its own benchmark.
+
+![Enrolment contrasts and the share of placebos with at least as large an absolute gap: MAI 12 of 14, MPGU 31 of 64, MISIS 2 of 3](assets/en/placebo_summary.svg)
+
+- **MPGU:** relative enrolment growth is **+9.97 and +10.30 percentage points** across the two benchmarks, and remains **+7.16** without the largest-weight donor. However, **31 of 64** eligible placebo gaps are at least as large in absolute terms.
+- **MAI and MISIS:** MAI's enrolment contrast stays negative but changes in magnitude. MISIS's contrast changes sign when its sole positive-weight donor is removed. The synthetic score benchmarks for MPGU and MISIS fail the 2022 fit check.
+- **TSU:** only two universities have complete series for the same subject basket, so no estimate is reported.
+
+A time placebo also finds differences in **2021–2022**, before the pilot. With only one pre-pilot interval, the checks are descriptive and cannot establish causality.
+
+[Methods, aggregate results and reproduction commands (in Russian)](docs/placebo_synthetic.md).
+
 ## Analytical approach
 
 1. **Preparation and quality checks.** Parse text-based numbers, preserve missing values and check university–group–year keys and valid ranges.
@@ -73,7 +91,7 @@ The numerical v5 results were reproduced in a [separate replication using the so
 - MKP groups may combine pilot and other programmes; the exact proportion of pilot students is unknown.
 - Enrolment also depends on the supply of places. Direct demand measurement requires comparable applications, applicant priorities and places.
 - MKP assigns BVI entrants scores of 100, so scores and BVI cannot be treated as independent evidence.
-- Only one pre-pilot interval is available. A causal effect is not established. Statistical significance was not assessed.
+- Only one pre-pilot interval is available. Placebos describe the spread of gaps; neither a causal effect nor statistical significance is established.
 
 The absence of robust supporting evidence is not proof of no effect.
 
